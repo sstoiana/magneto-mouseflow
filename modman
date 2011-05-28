@@ -1,0 +1,4 @@
+# Comments are supported, begin a line with a hash
+code/Mouseflow                  app/code/community/Magneto/Mouseflow
+design/layout/mouseflow.xml     app/design/frontend/base/default/layout/mouseflow.xml 
+Magneto_Mouseflow.xml           app/etc/modules/Magneto_Mouseflow.xml 

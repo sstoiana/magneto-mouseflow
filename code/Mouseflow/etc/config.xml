@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magneto_Mouseflow>
+            <version>0.1.0</version>
+        </Magneto_Mouseflow>
+    </modules>
+    
+    <global>
+        <models>
+            <mouseflow><class>Magneto_Mouseflow_Model</class></mouseflow>
+        </models>
+        <blocks>
+            <mouseflow><class>Magneto_Mouseflow_Block</class></mouseflow>
+        </blocks>
+        <helpers>
+            <mouseflow>
+                <class>Magneto_Mouseflow_Helper</class>
+            </mouseflow>
+        </helpers>
+    </global>
+    
+    <frontend>
+        <translate>
+            <modules>
+                <Magneto_Mouseflow>
+                    <files>
+                        <default>Magneto_Mouseflow.csv</default>
+                    </files>
+                </Magneto_Mouseflow>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <mouseflow>
+                    <file>mouseflow.xml</file>
+                </mouseflow>
+            </updates>
+        </layout>
+    </frontend>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <Magneto_Mouseflow>
+                    <files>
+                        <default>Magneto_Mouseflow.csv</default>
+                    </files>
+                </Magneto_Mouseflow>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>

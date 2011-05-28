@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <!-- Magneto_Mouseflow -->
+        <reference name="head">
+            <block type="mouseflow/mouseflow" name="mouseflow" as="mouseflow" />
+        </reference>
+    </default>
+</layout>
